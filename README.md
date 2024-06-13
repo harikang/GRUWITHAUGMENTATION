@@ -3,18 +3,18 @@
 ## Proposed Method
 <div style="font-size: 2em;">
 We apply a modified version of GRU with various Data Augmentation Methods.
-  
+ </div> 
+ 
 ---
 
-</div>
 <div style="font-size: 2em;">
-  Firstly, our modification entails the integration of information from both the current ( t ) and preceding ( t-1 ) time steps. By updating the GRU Cell design to include information from two sequential time points, we aim to improve the learning of time sequences.
+  Firstly, our modification entails the integration of information from both the current ( t ) and preceding ( t-1 ) time steps. 
+  
+  By updating the GRU Cell design to include information from two sequential time points, we aim to improve the learning of time sequences.  
   
 </div>
-
-<div style="text-align:center;">  
-  <img src="https://github.com/harikang/GRUWITHAUGMENTATION/assets/138555992/0ba00e11-1bd9-4814-b59c-cc137db60367" alt="modelflow">
-</div>
+  <img src="https://github.com/harikang/GRUWITHAUGMENTATION/assets/138555992/7e406e26-b0d5-4f66-9d71-0ab9e0b88eb5" alt  = "momdelflow">
+  </div>
 
 ---
 
