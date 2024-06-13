@@ -27,14 +27,15 @@ class TensorData(Dataset):
 
     def __len__(self):
         return self.len
-
+def dataloader(X_train, y_train):
 # Data Loaders
-batch_size = 512
-
-train_dataset = TensorData(X_train, y_train)
-train_data_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
-
-test_dataset = TensorData(X_test, y_test_en)
-test_data_loader = DataLoader(dataset=test_dataset, batch_size=len(X_test), shuffle=False)
-
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    batch_size = 512
+    
+    train_dataset = TensorData(X_train, y_train)
+    train_data_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
+    
+    test_dataset = TensorData(X_test, y_test_en)
+    test_data_loader = DataLoader(dataset=test_dataset, batch_size=len(X_test), shuffle=False)
+    
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    return train_data_loader, test_data_loader, device
