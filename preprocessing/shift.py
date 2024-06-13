@@ -15,9 +15,7 @@ def shift(X_train,  y_train_en):
         augmented_data_fill.append(shifted_data_fill)
     
     # Combining all augmented data
-    augmented_data_fill = np.concatenate(augmented_data_fill, axis=0)
-    
-    X_train_sh = augmented_data_fill
+    augmented_data_fill = np.concatenate(augmented_data_fill, axis=0)    
     
     # Number of shifts is 20
     num_shifts = 20
@@ -25,6 +23,7 @@ def shift(X_train,  y_train_en):
     # Augmenting the labels
     augmented_labels = augment_labels(y_train_en, num_shifts)
     
-    y_train_sh =augmented_labels
+    X_train_sh = torch.FloatTensor(augmented_data_fill)
+    y_train_sh = torch.FloatTensor(augmented_labels)
     
     return X_train_sh, y_train_sh
