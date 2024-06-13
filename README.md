@@ -12,8 +12,7 @@ We apply a modified version of GRU with various Data Augmentation Methods.
   
 </div>
 
-<div style="text-align:center;">
-  
+<div style="text-align:center;">  
   <img src="https://github.com/harikang/GRUWITHAUGMENTATION/assets/138555992/0ba00e11-1bd9-4814-b59c-cc137db60367" alt="modelflow">
 </div>
 
@@ -66,8 +65,7 @@ We apply a modified version of GRU with various Data Augmentation Methods.
 ---
 
 <div style="font-size: 2em;">
-  Our proposed method shows great improvement compared with State-of-the-Art (SOTA) with 96.76% accuracy.
-  
+  Our proposed method shows great improvement compared with State-of-the-Art (SOTA) with 96.76% accuracy.  
 </div>
 
 <div style="text-align:center;">
