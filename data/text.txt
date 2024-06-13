@@ -1,0 +1,5 @@
+We use 3 kinds of dataset to train and test our model. 
+
+1. ARIL
+2. SignFi
+3. HAR with Nexmon
