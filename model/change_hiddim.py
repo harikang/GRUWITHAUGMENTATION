@@ -1,6 +1,7 @@
 # Training Function
 import time
 import torch.nn as nn
+from model import cutmix
 
 def change_hiddim(hid_dim, model_check, output_dim, epochs, learning_rate):
     if model_check == 'lstm':
