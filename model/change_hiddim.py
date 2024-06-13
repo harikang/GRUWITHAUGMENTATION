@@ -2,6 +2,9 @@
 import time
 import torch.nn as nn
 from model import cutmix
+from preprocessing import dataloader
+
+train_data_loader, test_data_loader, device = dataloader(X,y)
 
 def change_hiddim(hid_dim, model_check, output_dim, epochs, learning_rate):
     if model_check == 'lstm':
