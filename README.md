@@ -1,5 +1,7 @@
 # GRUWITHAUGMENTATION
 
+https://ieeexplore.ieee.org/document/10902832
+
 ## Proposed Method
 <div style="font-size: 2em;">
 We apply a modified version of GRU with various Data Augmentation Methods.
